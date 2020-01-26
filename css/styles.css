@@ -1,0 +1,96 @@
+body {
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #E5E5E5;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 60px;
+}
+
+.inputs-block {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.input-item {
+    margin-right: 20px;
+    max-width: 255px;
+}
+
+.input-item-title {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+input {
+    background: #FFFFFF;
+    box-sizing: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #E5E5E5;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    padding-left: 10px;
+}
+
+#add-word-btn {
+    background: #dfbd28;
+    padding: 0 24px;
+    box-sizing: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border: none;
+    height: 52px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#add-word-btn:hover {
+    background: rgb(202, 156, 88);
+}
+
+.table-block {
+    max-width: 500px;
+    display: flex;
+    align-items: space-between;
+}
+
+.btn-delete {
+    background-image: url('../img/delete.png');
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: none;
+}
+
+.eng-word {
+    font-style: 35px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    align-self: center;
+    margin: 40px 0;
+    padding: 0 40px 0 70px;
+}
+
+.pol-word {
+    font-weight: bold;
+    font-style: 35px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    align-self: center;
+    margin: 40px 0;
+}
+
+.error {
+    border: 1px solid #FF0000;
+}
